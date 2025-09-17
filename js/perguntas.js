@@ -5,16 +5,16 @@ export const perguntas = [
             {
                 texto: "salgado", //primeira alternativa
                 afirmacao: [
-                    "você tem bom gosto", //comentário para a resposta
-                    "afirmação 2"        //segundo comentário
+                    "salgado é realmente muito bom", //comentário para a resposta
+                    "mas em execesso faz mal kk"        //segundo comentário
                 ],
                 proxima: 1,
             },
             {
                 texto: "doce",
                 afirmacao: [
-                    "não só de doce vive o homem",
-                    "você não sabe escolher"
+                    "doce é muito bom",
+                    "uma escolha diferente, mais não estou aqui pra julgar"
                 ],
                 proxima: 1,
             }
@@ -26,15 +26,15 @@ export const perguntas = [
             {
                 texto: "praia",
                 afirmacao: [
-                    "gosto até bom",
-                    "afirmação 2"
+                    "praia é um ótimo gosto",
+                    "muito bom"
                 ],
                 proxima: 2,
             },
             {
-                texto: "voce tem um otimo gosto",
+                texto: "fazenda",
                 afirmacao: [
-                    "adimiro suas escolhas",
+                    "fazenda é uma otima escolha",
                     "tem bom gosto"
                 ],
                 proxima: 2,
@@ -48,7 +48,7 @@ export const perguntas = [
                 texto: "sair",
                 afirmacao: [
                     "é bom sair de casa pra dar um role",
-                    "afirmação 2"
+                    "mais ficar no conforto de casa é bom também"
                 ],
                 proxima: 3,
             },
@@ -68,8 +68,8 @@ export const perguntas = [
             {
                 texto: "computador",
                 afirmacao: [
-                    "bom gosto",
-                    "afirmação 2"
+                    "você tem um bom gosto",
+                    "um custo alto mais vale a pena"
                 ],
                 proxima: 4,
             },
@@ -97,7 +97,7 @@ export const perguntas = [
                 texto: "iphone",
                 afirmacao: [
                     "voce tem um bom gosto",
-                    "mais tem um custo elevado"
+                    "e o valor compensa com a qualidade"
                 ],
             }
         ]
